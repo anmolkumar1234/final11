@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: -10px;
+  padding: 20px;
+  background-color: #700;
+}
+.container {
+  background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D'); /* Adjust the path to your image */
+  max-width: 1300px;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+h1 {
+  color: #700;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+h2{
+  margin-left: 0px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.status{
+  margin-left: 80px;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.992);
+
+}
+
+.campaign-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left-half {
+  flex: 1;
+  padding-right: 20px;
+  margin-left: 80px;
+
+}
+.right-half {
+  max-width: 300px;
+  flex: 1;
+  margin-right: 50px;
+  box-shadow: 0 0 20px rgba(164, 0, 0, 0.792);
+}
+.campaign-description {
+  border-bottom: 1px solid #700;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.campaign-description h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.fundraiser-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.donation-form {
+  background-color: rgba(255, 255, 255, 0.983);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.donations-table{
+  margin-left: 80px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-group button {
+  padding: 10px 20px;
+  background-color: #700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.form-group button:hover {
+  background-color: rgb(128, 35, 35);
+}
+
+/* Add these styles to your details.component.css file */
+
+.progress-bar-container {
+  margin-top: 20px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  padding: 1px;
+  appearance: none; /* Remove default styling */
+}
+
+progress::-webkit-progress-bar {
+  background-color: #868686; /* Background color of the progress bar container */
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #700; /* Color of the progress bar */
+  border-radius: 10px;
+}

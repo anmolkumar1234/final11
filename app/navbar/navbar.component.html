@@ -1,0 +1,26 @@
+<header>
+  <nav>
+    <div class="logo">
+      <a routerLink="/">WishWell</a>
+    </div>
+    <ul class="nav-links">
+      <li><a routerLink="/main">Campaigns</a></li>
+    </ul>
+    <ul class="nav-links">
+      <li><a routerLink="/contact">Contact Us</a></li>
+    </ul>
+    <ul class="nav-links" *ngIf="!isLoggedIn">
+      <li><a routerLink="/login">Login</a></li>
+    </ul>
+    <ul class="nav-links" *ngIf="!isLoggedIn">
+      <li><a routerLink="/register">Sign Up</a></li>
+    </ul>
+    <ul class="profile" *ngIf="isLoggedIn">
+      <li>
+        <a routerLink="/profile">
+          <i class="fas fa-user"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>

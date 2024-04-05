@@ -1,0 +1,64 @@
+
+header {
+    margin: -10px;
+    background-color: #700;
+    padding: 2px;
+    border-color: black;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+  
+  .logo a {
+    padding-left: 10px;
+    color: #fffffff4;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fffffff4;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile {
+    padding-left: 1050px;
+    list-style-type: none;
+    margin-top: 5px;
+  }
+  
+  .profile li {
+    display: inline-block;
+  }
+  
+  .profile a {
+    display: block;
+    width: 45px; /* Adjust the width and height to make a circular shape */
+    height: 45px;
+    background-color: rgb(255, 255, 255); /* Background color of the circular profile */
+    border-radius: 50%; /* Make the profile circular */
+    overflow: hidden; /* Hide overflow content to maintain circular shape */
+    text-align: center; /* Center the icon horizontally */
+    line-height: 40px; /* Vertically center the icon */
+    color: #333; /* Text color */
+  }
+  
